@@ -75,8 +75,8 @@ python --version
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/athika2302/Diesel_generator.git
-cd Diesel_generator
+git clone https://github.com/athika2302/T127-ECE-029.git
+cd T127-ECE-029
 ```
 
 ### 3. Verify setup
