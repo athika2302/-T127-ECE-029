@@ -294,7 +294,24 @@ Stores operational alerts with timestamps, site identifiers, alert types, refere
 
 Stores monthly site-wise summaries, including runtime hours, fuel consumption, fuel cost, maintenance cost, energy generation, cost per kWh, and alert counts.
 
-## 11. Conclusion
+## 11. Business Rule Register
+
+The following business rules are implemented in the application according to the project requirements.
+
+| Rule ID | Business Rule | Description |
+|---|---|---|
+| BR-01 | Load Percentage | Load percentage = Average Load (kW) / (DG Rating (kVA) × 0.8) × 100. Round to the nearest whole percentage using half-up rounding. |
+| BR-02 | Fuel Consumption | Apply fuel rates based on load: up to 25% = 0.08, 26–50% = 0.12, 51–75% = 0.17, and 76–100% = 0.22 litres per kVA per hour. |
+| BR-03 | Overload Detection | Reject runs above 100% load with OVERLOAD and do not cost them. Generate OVERLOAD_WARNING when load is between 91% and 100% for more than 60 continuous minutes. |
+| BR-04 | Low-Load Detection | Generate LOW_LOAD when generator load is below 30% for more than four hours. |
+| BR-05 | Fuel Management | Subtract consumed fuel from the previous fuel balance. Refills must not exceed tank capacity; excess generates SPILL_ERROR. Generate REFILL_DUE when remaining fuel is expected to run out within eight hours, using the average load of the last five accepted runs (or available accepted runs when fewer than five exist). |
+| BR-06 | Maintenance Scheduling | Generate SERVICE_DUE when runtime reaches 250 hours or 180 days have elapsed since the previous service, whichever occurs first. Each service costs ₹4,500 and resets both maintenance counters. |
+| BR-07 | Monthly Cost Calculation | Calculate cost per kWh using (monthly fuel cost + monthly service cost) / monthly generated energy. Round to two decimal places. Display NA when generated energy is zero. |
+| BR-08 | Overlapping Run Validation | Reject a generator run that overlaps a previous run at the same site and generate OVERLAP_ERROR. |
+
+These rules are applied by the processing engine and verified through unit tests and sample dataset checks.
+
+## 12. Conclusion
 
 The system provides a modular and command-driven solution for monitoring diesel generator operations across telecom sites.
 
