@@ -1,0 +1,8 @@
+# ECE-029 command file - load, process all events in time order, then print the two monthly reports
+LOAD_SITES|sites.csv
+LOAD_RUNS|run_logs.csv
+LOAD_REFILLS|refills.csv
+LOAD_SERVICES|services.csv
+PROCESS
+REPORT|2026-09
+REPORT|2026-10

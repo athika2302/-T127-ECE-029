@@ -1,0 +1,65 @@
+timestamp,site_id,type,ref_id,detail
+2026-09-01 17:00:00,SITE-002,REFILL_DUE,RUN-0015,Estimated fuel remaining: 4.00 hours
+2026-09-04 03:33:00,SITE-005,SERVICE_DUE,RUN-0061,Service due: 250 run hours or 180 days reached
+2026-09-04 09:18:00,SITE-006,REFILL_DUE,RUN-0066,Estimated fuel remaining: 7.89 hours
+2026-09-04 07:37:00,SITE-003,REFILL_DUE,RUN-0067,Estimated fuel remaining: 7.34 hours
+2026-09-05 14:04:00,SITE-009,REFILL_DUE,RUN-0086,Estimated fuel remaining: 7.97 hours
+2026-09-06 01:47:00,SITE-012,REFILL_DUE,RUN-0090,Estimated fuel remaining: 7.66 hours
+2026-09-06 04:34:00,SITE-002,REFILL_DUE,RUN-0094,Estimated fuel remaining: 7.79 hours
+2026-09-07 03:44:00,SITE-010,REFILL_DUE,RUN-0105,Estimated fuel remaining: 6.50 hours
+2026-09-07 05:53:00,SITE-004,REFILL_DUE,RUN-0112,Estimated fuel remaining: 7.97 hours
+2026-09-07 15:18:00,SITE-008,REFILL_DUE,RUN-0119,Estimated fuel remaining: 7.93 hours
+2026-09-09 21:00:00,SITE-003,OVERLOAD_WARNING,RUN-0153,High load for 120 minutes
+2026-09-10 09:01:00,SITE-003,OVERLOAD_WARNING,RUN-0165,High load for 61 minutes
+2026-09-10 14:45:00,SITE-003,OVERLOAD,RUN-0169,Load exceeded 100%: 101%
+2026-09-11 13:30:00,SITE-003,LOW_LOAD,RUN-0184,Low load for 270 minutes
+2026-09-12 12:37:00,SITE-008,REFILL_DUE,RUN-0197,Estimated fuel remaining: 7.62 hours
+2026-09-13 05:14:00,SITE-012,REFILL_DUE,RUN-0202,Estimated fuel remaining: 7.75 hours
+2026-09-14 04:47:00,SITE-011,REFILL_DUE,RUN-0216,Estimated fuel remaining: 6.57 hours
+2026-09-14 08:57:00,SITE-010,REFILL_DUE,RUN-0222,Estimated fuel remaining: 6.16 hours
+2026-09-14 08:32:00,SITE-007,REFILL_DUE,RUN-0223,Estimated fuel remaining: 7.01 hours
+2026-09-14 15:38:00,SITE-006,REFILL_DUE,RUN-0225,Estimated fuel remaining: 7.57 hours
+2026-09-16 07:03:00,SITE-011,SERVICE_DUE,RUN-0254,Service due: 250 run hours or 180 days reached
+2026-09-18 05:16:00,SITE-004,REFILL_DUE,RUN-0280,Estimated fuel remaining: 6.38 hours
+2026-09-19 03:05:00,SITE-005,REFILL_DUE,RUN-0290,Estimated fuel remaining: 7.75 hours
+2026-09-19 08:28:00,SITE-001,REFILL_DUE,RUN-0300,Estimated fuel remaining: 7.46 hours
+2026-09-19 05:02:00,SITE-005,SPILL_ERROR,RF-025,Refill exceeded tank capacity by 15.00 litres
+2026-09-21 13:19:00,SITE-009,REFILL_DUE,RUN-0330,Estimated fuel remaining: 7.79 hours
+2026-09-21 12:01:00,SITE-003,REFILL_DUE,RUN-0331,Estimated fuel remaining: 7.62 hours
+2026-09-24 13:51:00,SITE-007,REFILL_DUE,RUN-0381,Estimated fuel remaining: 7.37 hours
+2026-09-27 03:49:00,SITE-004,REFILL_DUE,RUN-0416,Estimated fuel remaining: 5.28 hours
+2026-09-27 07:33:00,SITE-012,REFILL_DUE,RUN-0423,Estimated fuel remaining: 6.76 hours
+2026-09-28 16:38:00,SITE-006,REFILL_DUE,RUN-0441,Estimated fuel remaining: 3.88 hours
+2026-09-28 16:38:00,SITE-006,SERVICE_DUE,RUN-0441,Service due: 250 run hours or 180 days reached
+2026-09-29 03:07:00,SITE-009,REFILL_DUE,RUN-0445,Estimated fuel remaining: 6.88 hours
+2026-09-29 07:04:00,SITE-003,REFILL_DUE,RUN-0451,Estimated fuel remaining: 5.67 hours
+2026-09-29 08:14:00,SITE-010,REFILL_DUE,RUN-0452,Estimated fuel remaining: 5.69 hours
+2026-09-29 05:00:00,SITE-002,REFILL_DUE,RUN-0453,Estimated fuel remaining: 7.79 hours
+2026-09-30 08:36:00,SITE-008,REFILL_DUE,RUN-0467,Estimated fuel remaining: 5.38 hours
+2026-10-02 05:22:00,SITE-011,REFILL_DUE,RUN-0496,Estimated fuel remaining: 7.22 hours
+2026-10-04 16:47:00,SITE-002,REFILL_DUE,RUN-0528,Estimated fuel remaining: 7.57 hours
+2026-10-06 06:56:00,SITE-006,REFILL_DUE,RUN-0551,Estimated fuel remaining: 7.03 hours
+2026-10-07 07:23:00,SITE-003,REFILL_DUE,RUN-0561,Estimated fuel remaining: 5.93 hours
+2026-10-07 06:29:00,SITE-012,SERVICE_DUE,RUN-0562,Service due: 250 run hours or 180 days reached
+2026-10-08 03:14:00,SITE-008,SERVICE_DUE,RUN-0567,Service due: 250 run hours or 180 days reached
+2026-10-08 04:20:00,SITE-010,REFILL_DUE,RUN-0568,Estimated fuel remaining: 5.79 hours
+2026-10-08 09:22:00,SITE-012,REFILL_DUE,RUN-0578,Estimated fuel remaining: 6.85 hours
+2026-10-11 08:13:00,SITE-002,REFILL_DUE,RUN-0612,Estimated fuel remaining: 6.69 hours
+2026-10-13 07:55:00,SITE-004,REFILL_DUE,RUN-0639,Estimated fuel remaining: 7.59 hours
+2026-10-14 12:00:00,SITE-002,OVERLAP_ERROR,RUN-0654,Run overlaps a previously accepted run
+2026-10-16 02:57:00,SITE-012,REFILL_DUE,RUN-0676,Estimated fuel remaining: 6.41 hours
+2026-10-16 10:53:00,SITE-010,REFILL_DUE,RUN-0685,Estimated fuel remaining: 6.88 hours
+2026-10-18 03:19:00,SITE-005,REFILL_DUE,RUN-0703,Estimated fuel remaining: 7.96 hours
+2026-10-18 04:21:00,SITE-010,SERVICE_DUE,RUN-0706,Service due: 250 run hours or 180 days reached
+2026-10-19 08:18:00,SITE-011,REFILL_DUE,RUN-0728,Estimated fuel remaining: 7.56 hours
+2026-10-20 11:32:00,SITE-003,SERVICE_DUE,RUN-0743,Service due: 250 run hours or 180 days reached
+2026-10-23 07:39:00,SITE-010,REFILL_DUE,RUN-0780,Estimated fuel remaining: 6.93 hours
+2026-10-23 17:17:00,SITE-002,REFILL_DUE,RUN-0787,Estimated fuel remaining: 6.40 hours
+2026-10-24 06:49:00,SITE-003,REFILL_DUE,RUN-0795,Estimated fuel remaining: 5.94 hours
+2026-10-26 06:19:00,SITE-012,REFILL_DUE,RUN-0826,Estimated fuel remaining: 6.72 hours
+2026-10-27 17:13:00,SITE-004,SERVICE_DUE,RUN-0848,Service due: 250 run hours or 180 days reached
+2026-10-28 05:24:00,SITE-007,REFILL_DUE,RUN-0849,Estimated fuel remaining: 5.53 hours
+2026-10-29 06:34:00,SITE-008,REFILL_DUE,RUN-0871,Estimated fuel remaining: 6.90 hours
+2026-10-31 06:43:00,SITE-012,REFILL_DUE,RUN-0895,Estimated fuel remaining: 6.43 hours
+2026-10-31 07:37:00,SITE-002,REFILL_DUE,RUN-0897,Estimated fuel remaining: 6.26 hours
+2026-10-31 07:37:00,SITE-002,SERVICE_DUE,RUN-0897,Service due: 250 run hours or 180 days reached

@@ -1,0 +1,13 @@
+site_id,site_name,city,dg_rating_kva,tank_capacity_l,diesel_rate_rs_per_l,opening_fuel_l,hour_meter_reading,last_service_hour_meter,last_service_date
+SITE-001,Bengaluru RTT Site,Bengaluru,15,90.00,92.05,63.00,7693.7,7651.4,2026-05-17
+SITE-002,Tumakuru RTT Site,Tumakuru,20,100.00,91.30,24.00,5918.7,5835.7,2026-06-23
+SITE-003,Kolar Shelter Site,Kolar,25,130.00,88.76,88.00,6356.8,6243.8,2026-06-25
+SITE-004,Mandya Shelter Site,Mandya,25,130.00,88.76,106.00,2800.3,2690.6,2026-08-01
+SITE-005,Hassan Shelter Site,Hassan,30,160.00,92.05,115.00,8852.5,8616.5,2026-07-07
+SITE-006,Mysuru GBT Site,Mysuru,30,160.00,88.76,101.00,3646.6,3474.6,2026-05-14
+SITE-007,Chitradurga Shelter Site,Chitradurga,40,210.00,91.30,155.00,5850.1,5805.1,2026-05-14
+SITE-008,Davangere RTT Site,Davangere,40,210.00,89.45,187.00,6565.0,6430.6,2026-06-19
+SITE-009,Hubballi Shelter Site,Hubballi,50,260.00,92.05,209.00,7026.8,6866.9,2026-06-03
+SITE-010,Belagavi RTT Site,Belagavi,62.5,320.00,88.76,253.00,3326.3,3199.2,2026-06-09
+SITE-011,Ballari GBT Site,Ballari,62.5,320.00,91.30,237.00,8236.0,8138.0,2026-03-20
+SITE-012,Shivamogga GBT Site,Shivamogga,20,100.00,88.76,82.00,7304.5,7149.0,2026-06-12
